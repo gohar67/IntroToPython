@@ -1,0 +1,5 @@
+text = input("my text is:")
+tlower = text.lower()
+print('The given string:', text)
+print("The USA/usa count is:", tlower.count('usa'))
+print('The new string:', tlower.replace('usa', 'Armenia'))

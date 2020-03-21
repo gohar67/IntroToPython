@@ -1,0 +1,7 @@
+text = input('write 7 or more characters:')
+x = ((len(text)+1)/2)
+start_index = int(x - 2)
+end_index = int(x + 1)
+print('The old string:', text)
+print("Middle 3 characters:", text[start_index:end_index])
+print("The new string:", text[:start_index] + text[start_index:end_index].upper() + text[end_index:])
