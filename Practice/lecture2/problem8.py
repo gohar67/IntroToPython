@@ -1,0 +1,7 @@
+text = input('please enter text: ')
+start_index = int(input('enter start: '))
+end_index = int(input('enter end: '))
+print('The given text: ', text)
+print('Start index: ', start_index)
+print('End index: ', end_index)
+print('Output string: ', text[start_index:end_index])
